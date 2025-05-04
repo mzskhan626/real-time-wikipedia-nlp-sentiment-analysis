@@ -1,26 +1,54 @@
-# 🧠 Wikipedia Text Mining + Sentiment Analysis
+# 🧠 Real-Time Wikipedia NLP Sentiment Analysis
 
-This project applies Natural Language Processing (NLP) techniques to extract and analyze text from Wikipedia. It was developed for the **Real-Time Big Data Analytics** course at Cal Poly Pomona.
+A Natural Language Processing project that scrapes, analyzes, and visualizes sentiment from structured sections of Wikipedia using Python.
 
-## 🔍 Objective
-Analyze key sections of the Wikipedia page on Artificial Intelligence using web scraping and sentiment analysis. Results are visualized using charts.
+---
 
-## 🛠️ Tools & Libraries
-- Python
-- `requests`, `beautifulsoup4` – for web scraping
-- `textblob` – for sentiment analysis
-- `matplotlib`, `pandas` – for visualization & data handling
-- Jupyter Notebook
+## 📌 Project Summary
 
-## 📈 Analysis Performed
-- Extracted: Title, Intro, History, Main Content, References
-- Sentiment Scores: Polarity & Subjectivity
-- Classified Sentiment as: Positive, Neutral, Negative
-- Counted word totals by section
+This project was developed for the *Real-Time Big Data Analytics* course at Cal Poly Pomona. It focuses on real-time web/text mining by applying sentiment analysis to content from the Wikipedia page on **Artificial Intelligence**. Using NLP and data visualization, it offers insights into tone and subjectivity across key sections of a popular topic.
 
-## 📊 Visualizations
-- 📊 Bar chart of Polarity
-- 🧠 Bar chart of Subjectivity
-- 🥧 Pie chart of Sentiment Labels
+---
 
+## 📂 Features
 
+- ✅ Real-time web scraping with BeautifulSoup
+- ✅ NLP sentiment scoring using TextBlob
+- ✅ Subjectivity and polarity scoring
+- ✅ Automatic sentiment labeling (Positive, Negative, Neutral)
+- ✅ Word count analytics by section
+- ✅ Multiple charts: bar plots and pie visualization
+- ✅ Fully documented Jupyter Notebook & PDF export
+- ✅ Professional GitHub repo with assets, data, and analysis
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool        | Purpose                       |
+|-------------|-------------------------------|
+| Python 3    | Core programming language     |
+| Jupyter     | Interactive code + commentary |
+| TextBlob    | NLP sentiment analysis        |
+| BeautifulSoup | Web scraping HTML content   |
+| Pandas      | Data analysis & manipulation  |
+| Matplotlib  | Visualizations                |
+
+---
+
+## 📊 Output Visuals
+
+<p float="left">
+  <img src="assets/sentiment_chart.png" width="45%" />
+  <img src="assets/subjectivity_chart.png" width="45%" />
+  <img src="assets/sentiment_pie_chart.png" width="45%" />
+</p>
+
+---
+
+## 🧪 How to Run
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/mzskhan626/real-time-wikipedia-nlp-sentiment-analysis.git
+cd real-time-wikipedia-nlp-sentiment-analysis
