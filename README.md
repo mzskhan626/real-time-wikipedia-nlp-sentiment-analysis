@@ -6,7 +6,7 @@ A Natural Language Processing project that scrapes, analyzes, and visualizes sen
 
 ## 📌 Project Summary
 
-This project was developed for the *Real-Time Big Data Analytics* course at Cal Poly Pomona. It focuses on real-time web/text mining by applying sentiment analysis to content from the Wikipedia page on **Artificial Intelligence**. Using NLP and data visualization, it offers insights into tone and subjectivity across key sections of a popular topic.
+This project was developed for the *Real-Time Big Data Analytics*. It focuses on real-time web/text mining by applying sentiment analysis to content from the Wikipedia page on **Artificial Intelligence**. Using NLP and data visualization, it offers insights into tone and subjectivity across key sections of a popular topic.
 
 ---
 
